@@ -13,3 +13,4 @@ build/
 *.bcf
 *.run.xml
 *.pdf
+*.bak*
