@@ -25,9 +25,10 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: CVs - Build #${{ github.run_number }}
+          name: CVs - Build (${{ github.run_number }})
           files: |
-            build/DataEngineering.pdf
-            build/DevPython.pdf
-            build/DevOps.pdf
+            build/Rafael_Queiroz_Data_Engineer.pdf
+            build/Rafael_Queiroz_Python_Developer.pdf
+            build/Rafael_Queiroz_DevOps_Engineer.pdf
+            build/Rafael_Queiroz_Java_Developer.pdf
           generate_release_notes: true
